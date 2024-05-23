@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Biblioteca</title>
+  </head>
+  <body>
+    <h1>Biblioteca</h1>
+    <a href="./cadastrar">Cadastrar Livro</a>
+    <ul>
+      <% livros.forEach(livro =>{ %>
+      <li><%= livro.nome %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
